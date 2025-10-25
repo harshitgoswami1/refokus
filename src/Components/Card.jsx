@@ -8,12 +8,12 @@ function Card({ width, start, para, hover }) {
     >
       <div className="w-full">
         <div className="w-full flex text-white justify-between items-center">
-          <h3>One heading</h3>
+          <h3>Lorem.</h3>
           <a href="">
             <IoIosArrowRoundForward />
           </a>
         </div>
-        <h1 className="text-3xl font-normal mt-3">whatever heading</h1>
+        <h1 className="text-3xl font-normal mt-3">Lorem, ipsum.</h1>
       </div>
       <div className="down w-full mt-25 flex flex-row justify-between">
         {start === true ? (

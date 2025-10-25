@@ -7,6 +7,7 @@ import Marquees from './Components/Marquees'
 import Cards from './Components/Cards'
 import Footer from './Components/Footer'
 import Lenis from 'lenis'
+import './index.css'; 
 
 function App() {
   useEffect(() => {

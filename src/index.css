@@ -1,8 +1,17 @@
 @import "tailwindcss";
 
-*{
-    font-family: Satoshi;
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/fonts/Satoshi-Medium.otf') format('opentype');
+    font-weight: 500; /* or normal, depending on the font */
+    font-style: normal;
 }
+
+* {
+    font-family: 'Satoshi', sans-serif;
+}
+
+
 
 html {
     scroll-behavior: auto !important;

@@ -1,9 +1,11 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
-function Card({ width, start, para, hover }) {
+function Card({ width, start, para, hover = "false" }) {
   return (
-    <div
+    <motion.div
+      whileHover = {{backgroundColor : hover === 'true' && '#7443ff' , padding : '25px'}}
       className={` bg-zinc-800 p-5 rounded-xl ${hover} text-zinc-50 ${width} min-h-52 `}
     >
       <div className="w-full">
@@ -35,7 +37,7 @@ function Card({ width, start, para, hover }) {
           </p>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
 
